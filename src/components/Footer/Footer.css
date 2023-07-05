@@ -1,0 +1,13 @@
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+footer > h2 {
+    font-size: 8vw;
+    color: #9fff7f;
+}

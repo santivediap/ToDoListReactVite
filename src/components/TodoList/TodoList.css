@@ -1,0 +1,62 @@
+.todolistForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.list-container > p {
+    color: #9fff7f;
+    font-size: 6vw;
+}
+
+.todolistForm > input {
+    border: 1.5vw solid #9fff7f;
+    border-radius: 2vw 2vw;
+    padding: 1.5vw;
+    background-color: black;
+    color: #ffffff;
+    font-size: 6vw;
+    width: 90%;
+    text-align: center;
+}
+
+.todolistForm > button {
+    border-radius: 2vw 2vw;
+    padding: 1.5vw;
+    background-color: #9fff7f;
+    color: black;
+    font-size: 6vw;
+    width: 60%;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.list-container > button {
+    border-radius: 2vw 2vw;
+    padding: 1.5vw;
+    background-color: #9fff7f;
+    color: black;
+    font-size: 6vw;
+    width: 60%;
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+}
+
+.listItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
